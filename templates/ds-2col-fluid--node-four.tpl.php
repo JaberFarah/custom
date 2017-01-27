@@ -16,9 +16,10 @@
   <?php print render($title_suffix['contextual_links']); ?>
   <?php endif; ?>
   <div class="row">
-    <h2 class="text-center"><?php print drupal_get_title(); ?></h2>
+    <h2 class="text-center"><?php print drupal_get_title(); ?></h2> <br>
+    <div class="col-md-10 centered">
   <?php if ($left): ?>
-    <<?php print $left_wrapper ?> class="col-md-6<?php print $left_classes; ?><?php print $left_classes; ?>">
+    <<?php print $left_wrapper ?> class="col-md-4<?php print $left_classes; ?><?php print $left_classes; ?>">
       <?php print $left; ?>
     </<?php print $left_wrapper ?>>
   <?php endif; ?>
@@ -28,6 +29,7 @@
       <?php print $right; ?>
     </<?php print $right_wrapper ?>>
   <?php endif; ?>
+    </div>
   </div>
 </<?php print $layout_wrapper ?>>
 
