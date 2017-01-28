@@ -44,11 +44,10 @@ margin: 0 auto;
 	height: 400px;
 }
 .product-node img{
-	float: left;	
+	float: left;
+	margin: 20px 20px;	
 }
-.product-node p{
-	margin: 0 20px;
-}
+
 .product-nodes{
 	white-space: normal;
 	float: none !important;
