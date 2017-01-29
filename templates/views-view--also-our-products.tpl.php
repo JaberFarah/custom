@@ -54,9 +54,7 @@
   <?php if ($rows): ?>
     <div class="view-content">
       <div class="container">
-        <div class="row">
           <?php print $rows; ?>
-        </div>
       </div>
     </div>
   <?php elseif ($empty): ?>
