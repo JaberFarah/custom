@@ -25,18 +25,21 @@
  */
 ?>
 <div class="row">
-<div id="also-our-products-node" class="col-md-12">
-	<br>
-	<div class="also-our-products-image col-md-2">
-		<?php print $fields["field_gallery_image"]->wrapper_prefix;?>
-			<?php print $fields["field_gallery_image"]->content; ?>
-		<?php print $fields["field_gallery_image"]->wrapper_suffix;?>
+	<div id="also-our-products-node" class="col-md-12">
+		<br>
+		<div class="also-our-products-image col-md-2">
+			<?php print $fields["field_gallery_image"]->wrapper_prefix;?>
+				<?php print $fields["field_gallery_image"]->content; ?>
+			<?php print $fields["field_gallery_image"]->wrapper_suffix;?>
+		</div>
+		<div class="also-our-products-body col-md-10">
+
+			<?php print $fields["title"]->wrapper_prefix;?>
+				<?php print $fields["title"]->content; ?>
+				<?php print $fields["body"]->content; ?>
+				<?php print $fields["view_node"]->content; ?>
+			<?php print $fields["title"]->wrapper_suffix;?>
+		</div>
 	</div>
-	<div class="also-our-products-body col-md-10">
-		<?php print $fields["title"]->wrapper_prefix;?>
-			<?php print $fields["title"]->content; ?>
-		<?php print $fields["title"]->wrapper_suffix;?>
-	</div>
-</div>
 </div>
 
