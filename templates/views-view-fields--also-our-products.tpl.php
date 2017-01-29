@@ -24,7 +24,6 @@
  * @ingroup views_templates
  */
 ?>
-<div class="col-md-12">
 	<?php foreach ($fields as $id => $field): ?>
 	  <?php if (!empty($field->separator)): ?>
 	    <?php print $field->separator; ?>
