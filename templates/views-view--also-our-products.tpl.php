@@ -54,7 +54,7 @@
   <?php if ($rows): ?>
     <div class="view-content">
       <div class="container">
-        <div class="row"> 
+        <div class="row">
           <?php print $rows; ?>
         </div>
       </div>

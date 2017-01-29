@@ -24,6 +24,8 @@
  * @ingroup views_templates
  */
 ?>
+<div id="also-our-products-node" class="col-md-12">
+<br>
 	<?php foreach ($fields as $id => $field): ?>
 	  <?php if (!empty($field->separator)): ?>
 	    <?php print $field->separator; ?>

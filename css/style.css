@@ -161,3 +161,6 @@ margin: 0 auto;
 #superfish-1 span:hover, #superfish-1 > li > a{
 	color: #fff;
 }
+#also-our-products-node{
+	border-top: 1px solid #c1c1b5;
+}
