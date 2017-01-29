@@ -24,16 +24,19 @@
  * @ingroup views_templates
  */
 ?>
+<div class="row">
 <div id="also-our-products-node" class="col-md-12">
-<br>
-	<?php foreach ($fields as $id => $field): ?>
-	  <?php if (!empty($field->separator)): ?>
-	    <?php print $field->separator; ?>
-	  <?php endif; ?>
-
-	  <?php print $field->wrapper_prefix; ?>
-	    <?php print $field->label_html; ?>
-	    <?php print $field->content; ?>
-	  <?php print $field->wrapper_suffix; ?>
-	<?php endforeach; ?>
+	<br>
+	<div class="also-our-products-image col-md-2">
+		<?php print $fields["field_gallery_image"]->wrapper_prefix;?>
+			<?php print $fields["field_gallery_image"]->content; ?>
+		<?php print $fields["field_gallery_image"]->wrapper_suffix;?>
+	</div>
+	<div class="also-our-products-body col-md-10">
+		<?php print $fields["title"]->wrapper_prefix;?>
+			<?php print $fields["title"]->content; ?>
+		<?php print $fields["title"]->wrapper_suffix;?>
+	</div>
 </div>
+</div>
+
